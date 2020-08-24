@@ -1,6 +1,7 @@
 # NMY
 
 ##Animal Trading Cards
+
 This is the first challenge in the Nanodegree program
 (Introduction to Programming).
 
