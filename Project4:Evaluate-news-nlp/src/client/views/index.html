@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Evaluating a News Article with NLP </title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700|Ranga:400,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="">
+            Udacity-Project-4
+        </div>
+        <div class="">
+            Evaluate a News Article with Nlp
+        </div>
+    </header>
+
+    <main>
+        <h1>MeaningCloud API Sentiment Analysis</h1><br>
+        <p>Sentiment Analysis by MeaningCloud used for this project uses advanced natural language processing techniques to also detect the polarity associated to both entities and concepts in the text. Sentiment Analysis also gives the user the possibility
+            of detecting the polarity of user-defined entities and concepts, making the service a flexible tool applicable to any kind of scenario. Additionally, Sentiment Analysis detects if the text processed is subjective or objective and if it contains
+            irony marks [beta], both at global and sentence level, giving the user additional information about the reliability of the polarity obtained from the sentiment analysis.
+        </p>
+        <section>
+            <form class="" onsubmit="return Client.submitHandler(event)">
+                <input id="url" type="url" name="url" value="" placeholder="Enter a url">
+                <input type="submit" name="" value="submit" onclick="return Client.submitHandler(event)" onsubmit="return Client.submitHandler(event)">
+            </form>
+        </section>
+
+        <section>
+            <strong>Form Results:</strong>
+            <div id="results"></div>
+            <ul>
+                <li>
+                    <h3>Polarity:</h3>
+                    <p id="polarity"></p>
+
+                </li>
+                <li>
+                    <h3>Subjectivity:</h3>
+                    <p id="subjectivity"></p>
+
+                </li>
+
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>NtMuhd Udacity Fend - 2021</p>
+    </footer>
+    <script type="text/javasript" src="../../../dist/main.js"></script>
+    <script>
+        // Check that service workers are supported
+        if ('serviceWorker' in navigator) {
+            // Use the window load event to keep the page load performant
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js').then(registraion => {
+                    console.log('service worker registraion is successful')
+                });
+            });
+        } else {
+            console.log('service worker are not supported');
+        }
+    </script>
+
+</body>
+
+</html>
