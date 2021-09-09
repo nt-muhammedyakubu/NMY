@@ -4,7 +4,7 @@ function submitHandler(e) {
     Client.checkUrl(url)
     if (Client.checkUrl(url) === true) {
 
-        fetch('http://localhost:8081/meaningcloud-api', {
+        fetch('http://localhost:8080/meaningcloud-api', {
                 method: 'POST',
                 credentials: 'same-origin',
                 headers: {
@@ -20,10 +20,12 @@ function submitHandler(e) {
             .then((allData) => {
                 console.log(allData)
 
-                document.getElementById('polarity').innerHTML = `Polarity: ${allData.polarity}`;
+                document.getElementById('score_tag').innerHTML = `Score_tag: ${allData.score_tag}`;
                 document.getElementById('agreement').innerHTML = `Agreement: ${allData.agreement}`;
                 document.getElementById('confidence').innerHTML = `Confidence: ${allData.confidence}`;
                 document.getElementById('irony').innerHTML = `Irony: ${allData.irony}`;
+                document.getElementById('subjectivity').innerHTML = `subjectivity: ${allData.subjectivity}`;
+
 
             })
 

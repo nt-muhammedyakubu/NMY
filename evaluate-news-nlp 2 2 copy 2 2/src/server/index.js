@@ -34,7 +34,7 @@ function sendFile(req, res) {
 };
 
 // Set up the server
-const port = 8081;
+const port = 8080;
 
 const server = app.listen(port, listening);
 

@@ -31,7 +31,7 @@
             <form class="" onsubmit="return Client.submitHandler(event)">
 
                 <input id="url" type="url" name="url" value="" placeholder="Please enter a url">
-                <input type="submit" name="" value="Submit" onclick="return Client.submitHandler(event)" onsubmit="return Client.submitHandler(event)">
+                <input type="submit" name="" value="submit" onclick="return Client.submitHandler(event)" onsubmit="return Client.submitHandler(event)">
 
             </form>
         </section>
@@ -41,25 +41,32 @@
             <div id="results">
                 <ul>
                     <li>
-                        <h3>Polarity:</h3>
-                        <p id="polarity"></p>
+                        <h3>Score_tag</h3>
+                        <p id="score_tag"></p>
 
                     </li>
                     <li>
-                        <h3>Agreement:</h3>
+                        <h3>Agreement</h3>
                         <p id="agreement"></p>
                     </li>
                     <li>
-                        <h3>Confidence:</h3>
+                        <h3>Confidence</h3>
                         <p id="confidence"></p>
 
                     </li>
                     <li>
-                        <h3>Irony:</h3>
+                        <h3>Irony</h3>
                         <p id="irony"></p>
 
                     </li>
+                    <li>
+                        <h3>Subjectivity</h3>
+                        <p id="subjectivity"></p>
+
+                    </li>
                 </ul>
+
+
             </div>
         </section>
     </main>
