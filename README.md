@@ -88,8 +88,8 @@ A great step to take with the finished project could be to deploy it! But that w
 #### References
 Natural Language Processing Note, [Retrieved from ```https://en.wikipedia.org/wiki/Natural_language_processing on 18 February 2021]``` <br>
 Webpack Docs ```https://webpack.js.org/loaders/```<br>
-Sass basics ```https://sass-lang.com/guide```<br
-MeaningCloud API Endpoint Docs ```https://www.meaningcloud.com/developer/sentiment-analysis/dev-tools/2.1```<br
-Fetch APIS docs ```https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API```<br
-Jest Docs```https://jestjs.io/docs/en/getting-started```<br
-Jest Tutorial ```https://jestjs.io/docs/en/configuration#snapshotserializers-arraystring```<br
+Sass basics ```https://sass-lang.com/guide```<br>
+MeaningCloud API Endpoint Docs ```https://www.meaningcloud.com/developer/sentiment-analysis/dev-tools/2.1```<br>
+Fetch APIS docs ```https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API```<br>
+Jest Docs```https://jestjs.io/docs/en/getting-started```<br>
+Jest Tutorial ```https://jestjs.io/docs/en/configuration#snapshotserializers-arraystring```<br>
