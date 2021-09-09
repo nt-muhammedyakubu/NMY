@@ -91,7 +91,6 @@ Improving the readability or organization of the code
 - The pycodestyle tool reports zero errors and zero warnings.
 - The program is a playable game, and runs from start to finish without crashing or displaying errors.
 
-**See also:** (https://review.udacity.com/#!/reviews/2481851)
 
 
 ##Pixel Art Maker
@@ -143,5 +142,3 @@ Improving the readability or organization of the code
 - Accessing the DOM using methods of the document object
 - Declaring functions and attaching them to DOM objects as event listeners
 - Writing nested loops and using loop variables
-
-**See also:** (https://review.udacity.com/#!/reviews/2484921)
