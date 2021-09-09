@@ -1,7 +1,7 @@
 # NMY
  Project Instructions
 
-The starter code for the project is from Udacity GitHub. It is the same as the starter used in lesson 2. Start by installing and configuring Webpack just as it was done in the course. You can refer to the course repo as you proceed, and remember to make frequent commits and to create and merge branches as necessary.
+The starter code is from Udacity GitHub. It is the same as the starter used in lesson 2. Start by installing and configuring Webpack just as it was done in the course. Always refer to the course repo as you proceed, and remember to make frequent commits and to create and merge branches as necessary.
 
 The goal of this project is to practice with:
 - Setting up Webpack
@@ -36,7 +36,7 @@ npm i -D optimize-css-assets-webpack-plugin terser-webpack-plugin
 
 ## Step 2: Setting up the API
 
-You do not need an application_id for MeaningCloud API. Refer here to setup account```https://www.meaningcloud.com/developer/account/subscriptions```. Once you create an account with MeaningCloud, you will be given a license key to start using the API. 
+You do not need an application_id for MeaningCloud API. Refer here to setup account```https://www.meaningcloud.com/developer/account/subscriptions```. Once you create an account with MeaningCloud, a license key will be given to start using the API. 
 
 ### Step 3: Setup the meaningcloud API
 Set up your server/index.js file.
@@ -57,7 +57,7 @@ var options = {
     'maxRedirects': 20
 };
 
-...but there's a problem with this. The personal API keys in the file is going to be available PUBLICLY on Github when we push, which is not advicable. So to prevent this, we will use environment variables. Environment variables are pretty much like normal variables in that they have a name and hold a value, but these variables only belong to your system and would not be visible when you push to a different environment like Github.
+...but the problem here is... the personal API keys in the file is going to be available PUBLICLY on Github when we push, which is not advicable. So to prevent this, we will use environment variables. Environment variables are pretty much like normal variables in that they have a name and hold a value, but these variables only belong to your system and would not be visible when you push to a different environment like Github.
 
 - Use npm or yarn to install the dotenv package ```npm install dotenv```. This will allow us to use environment variables we set in a new file
 - Create a new ```.env``` file in the root of the project
@@ -75,11 +75,11 @@ console.log(`Your API key is ${process.env.API_KEY}`);
 
 ##### Step 5: Using the API
 
-You can check out the documentation of the MeaningCloud API here```(https://www.meaningcloud.com/developer/sentiment-analysis/doc/2.1/examples)``` to use for the different programming languages. 
+Check out the documentation of the MeaningCloud API here```(https://www.meaningcloud.com/developer/sentiment-analysis/doc/2.1/examples)``` to use for the different programming languages. 
 
 ## After the MeaningCloud API
 
-After this, be sure you are following all the requirements in the project rubric in the classroom to make sure you're in the direction.
+After this, be sure you are following all the requirements in the project rubric in the classroom to make sure you're in the right direction.
 
 ### Deploying
 
