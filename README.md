@@ -86,8 +86,8 @@ After this, be sure you are following all the requirements in the project rubric
 A great step to take with the finished project could be to deploy it! But that would not be discussed here. Check ```Netlify-(https://www.netlify.com/)``` or ```Heroku-(https://www.heroku.com/) ```for some really intuitive free hosting options.
 
 #### References
-Natural Language Processing Note, [Retrieved from ```https://en.wikipedia.org/wiki/Natural_language_processing on 18 February 2021]``` <br
-Webpack Docs ```https://webpack.js.org/loaders/```<br
+Natural Language Processing Note, [Retrieved from ```https://en.wikipedia.org/wiki/Natural_language_processing on 18 February 2021]``` <br>
+Webpack Docs ```https://webpack.js.org/loaders/```<br>
 Sass basics ```https://sass-lang.com/guide```<br
 MeaningCloud API Endpoint Docs ```https://www.meaningcloud.com/developer/sentiment-analysis/dev-tools/2.1```<br
 Fetch APIS docs ```https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API```<br
