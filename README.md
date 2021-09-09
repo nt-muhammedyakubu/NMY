@@ -45,7 +45,6 @@ card. Image should be 300px wide, card should be 300px + spacing on either side.
   
 **Code is written to be easily readable**
 
-**See also:**(https://review.udacity.com/#!/reviews/240658)
 
 ##Adventure_game
 
