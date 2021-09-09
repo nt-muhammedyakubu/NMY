@@ -75,7 +75,7 @@ console.log(`Your API key is ${process.env.API_KEY}`);
 
 ##### Step 5: Using the API
 
-Check out the documentation of the MeaningCloud API here```(https://www.meaningcloud.com/developer/sentiment-analysis/doc/2.1/examples)``` to use for the different programming languages. 
+Check out the documentation of the MeaningCloud API here```(https://www.meaningcloud.com/developer/sentiment-analysis/doc/2.1/examples)```for the different programming languages. 
 
 ## After the MeaningCloud API
 
